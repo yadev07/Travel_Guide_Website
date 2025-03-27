@@ -1,0 +1,46 @@
+body{
+    margin: 2px;
+}
+
+header{
+    background-color: rgb(36, 29, 29);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 90px;
+    border-radius: 6px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+#s1{
+    border: 1px solid black;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0077ff;
+}
+
+#heading {
+    color: white;
+    font-size: 30px;
+    border: 1px solid black;
+}
+#welcome { 
+    color: white;
+    border: 1px solid black;
+}
