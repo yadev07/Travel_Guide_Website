@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    margin: 0 10px 0 10px;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-image: image-set(url("images/india-bg-5.jpg"));
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#tag{
+    font-size: 61px;
+    padding: 40px;
+    font-weight: 800;
+    letter-spacing: 17px;
+    text-shadow: 2px 5px 10px black;
+}
+
+header h1{
+    font-size: 2.5em;
+}
+
+.text{
+    font-size: 25px;
+    text-shadow: 1px 5px 10px black;
+}
+
+.section-title {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.section-content {
+    background-color: #ffeedd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-content p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.tip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tip-card {
+    background-color: #ffeedd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    transition: all 0.3s ease-in-out;
+}
+
+.tip-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tip-card h3 {
+    font-size: 1.4em;
+    color: #ff6347;
+}
+
+.tip-card p {
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

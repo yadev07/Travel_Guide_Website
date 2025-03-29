@@ -1,0 +1,127 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+#tag{
+    font-size: 61px;
+    padding: 40px;
+    font-weight: 800;
+    letter-spacing: 17px;
+    text-shadow: 2px 5px 10px black;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background-color: #ee5034;
+    color: white;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header{
+    background-image: image-set(url("images/indian-tourisum.jpg"));
+}
+
+.intro-text {
+    font-size: 1.2em;
+    text-shadow: 2px 5px 10px black;
+
+}
+
+/* Destination Section */
+.destination {
+    margin-bottom: 30px;
+    background-color: #ffeedd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease;
+    height: 300px;
+}
+
+.destination-info {
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    opacity: 70%;
+    height: 258px;
+}
+
+.destination h2 {
+    font-size: 2em;
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+
+strong{
+    color: #ff7860;
+}
+
+#jaipur{
+    background-image: image-set(url("images/jaipur-e.jpg"));
+}
+#goa{
+    background-image: image-set(url("images/goa-e.jpg"));
+}
+#varanasi{
+    background-image: image-set(url("images/varanasi.jpg"));
+}
+#kerala{
+    background-image: image-set(url("images/kerala.webp"));
+}
+#rishikesh{
+    background-image: image-set(url("images/rishikesh.webp"));
+}
+#leh-ladakh{
+    background-image: image-set(url("images/Leh-Ladakh.jpg"));
+}
+#andaman{
+    background-image: image-set(url("images/andaman.jpg"));
+}
+
+
+.destination p {
+    color: black;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Hover Effect */
+.destination:hover {
+    transform: scale(1.04);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    
+}
+
+footer p {
+    font-size: 1em;
+}
