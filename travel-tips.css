@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: #f9f9f9;
-    margin: 0 10px 0 10px;
+    margin: 5px 10px 0 10px;
     padding: 0;
     color: #333;
 }
@@ -24,13 +24,9 @@ header {
     text-shadow: 2px 5px 10px black;
 }
 
-header h1{
-    font-size: 2.5em;
-}
-
 .text{
-    font-size: 25px;
-    text-shadow: 1px 5px 10px black;
+    font-size: 30px;
+    text-shadow: 2px 7px 10px black;
 }
 
 .section-title {
@@ -72,7 +68,7 @@ header h1{
 }
 
 .tip-card:hover {
-    transform: translateY(-6px);
+    transform: translateY(-8px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -86,11 +82,23 @@ header h1{
 }
 
 footer {
-    background-color: black;
+    
+    background-color: #222;
+    color: #eee;
     text-align: center;
     padding: 15px;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
+
+.social-links{
+    margin-top: 16px;
+    
+}
+
+.social-links a img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
